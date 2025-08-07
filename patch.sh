@@ -4,7 +4,7 @@ echo "Update system ... "
 sudo apt update && sudo apt upgrade -y
 
 echo "Install UFW and Fail2Ban..."
-sudo apt install ufw fail2ban apache2 -y
+sudo apt install ufw fail2ban -y
 
 echo "Config UFW..."
 sudo ufw default deny incoming
