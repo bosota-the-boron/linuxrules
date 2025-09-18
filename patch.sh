@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Update system ... "
-sudo apt update && sudo apt upgrade -y
+sudo apt update -y && sudo apt upgrade -y
 
 echo "Install UFW and Fail2Ban..."
 sudo apt install ufw fail2ban -y
@@ -32,3 +32,8 @@ echo "UFW Status :"
 sudo ufw status
 echo "Statut de Fail2Ban :"
 sudo systemctl status fail2ban
+
+
+
+echo "Last Update ... "
+sudo apt update -y && sudo apt upgrade -y
