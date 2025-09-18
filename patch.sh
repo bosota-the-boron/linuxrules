@@ -33,7 +33,5 @@ sudo ufw status
 echo "Statut de Fail2Ban :"
 sudo systemctl status fail2ban
 
-
-
 echo "Last Update ... "
 sudo apt update -y && sudo apt upgrade -y
